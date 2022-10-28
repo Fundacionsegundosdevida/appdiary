@@ -21,6 +21,5 @@ app.listen(PORT, ()=>{
     //agregamos la bd 
     db();
 });
-
 //EXportar todas las carpeta y archivos del proyecto 
 module.exports = app
