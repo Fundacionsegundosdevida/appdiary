@@ -6,7 +6,7 @@ const { model, Schema } = require("mongoose")
 const UsuarioShema = new Schema({
     nombre: {type: String, required: true},
     correo: {type: String, required: true, unique: true},
-    contrasena: {type: String, required: true},
+    contraseña: {type: String, required: true},
 });
 
 //exportando el modelo y le pasamos el esquema
