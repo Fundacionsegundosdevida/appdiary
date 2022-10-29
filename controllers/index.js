@@ -1,11 +1,11 @@
-//Requiriendo controllers creados register, login, getUserByld en el archivo index
+//Requiriendo controllers creados register, login, getUserById en el archivo index
 //Requiriendo los controladores creados
 const register = require ('./register')
 const login = require ('./login')
-const getUserByld = require ('./getUserByld')
+const getUserById = require ('./getUserById')
 
 module.exports = {
     register,
     login,
-    getUserByld,
+    getUserById,
 };

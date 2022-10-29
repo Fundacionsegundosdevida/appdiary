@@ -14,7 +14,7 @@ app.use(cors())
 app.use(express.json()) //permite acceder a la informacion que contiene el body en las peticiones POST
 
 //creacion de las rutas de la APP
-app.get('/user/:id', controllers.getUserByld)// peticion get
+app.get('/user/:userId', controllers.getUserById)// peticion get
 //metodos post "enviar info"
 app.post('/register', controllers.register)
 app.post('/login', controllers.login)
