@@ -1,2 +1,2 @@
 const getUserByld = async (req, res)=> {}
-module.exports = getUserBylds
+module.exports = getUserByld
